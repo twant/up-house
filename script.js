@@ -19,5 +19,6 @@ function addBalloon() {
         balloon.setAttribute("position", `${posX} ${posY} ${posZ}`)
         document.getElementById("houseBalloons").appendChild(balloon)
         numBalloons += 1
+        document.getElementById("counter").setAttribute("value", `Number of balloons: ${numBalloons}`)
     }
 }
